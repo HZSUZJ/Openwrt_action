@@ -9,7 +9,7 @@
 #=============================================================
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i "38i\uci set network.lan.proto='dhcp'"  package/lean/default-settings/files/zzz-default-settings
 #sed -i '39i\uci commit network'  package/lean/default-settings/files/zzz-default-settings
 # Add a feed source
